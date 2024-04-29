@@ -1,0 +1,90 @@
+body {
+  background-color: #0E46A3; /* Choose your desired background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Ensure the body takes the full height of the viewport  */
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E1F7F5;
+}
+.left{
+  float:left;
+  padding-left: 2%;
+  color: #1E0342;
+}
+.navigation li {
+  float: right;
+}
+
+.navigation li a {
+  display: block;
+  color: #1E0342;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+  background-color: #2ad8d8;
+}
+  /* Content */
+  .content {
+    margin-top: 12%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontally center */
+    justify-content: center; /* vertically center */
+   /* height: 100vh; /*  ensure the content takes the full height of the viewport */
+  }
+  
+  .content link {
+    border-radius: 80px;
+    padding: 1% 4%;
+    margin: 1%;
+    font-size: 1.2rem;
+    background-color: #9AC8CD;
+    color: #1E0342;
+  }
+  .content a {
+    border-radius: 80px;
+    padding: 1% 4%;
+    margin: 1%;
+    font-size: 1.2rem;
+    background-color: #9AC8CD;
+    color: #1E0342;
+  }
+  
+  /* Footer */
+  .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer li {
+    float: right;
+    /*margin: 20px; */
+  }
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E1F7F5;
+  }
+  .footer li a:hover {
+    background-color: #2ad8d8;
+  }
+  .footer li a {
+    display: block;
+    color: #1E0342;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+  }
+  

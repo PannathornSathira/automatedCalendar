@@ -1,0 +1,9 @@
+.resultProcess{
+    border-radius: 80px;
+    flex: 33.33%;
+    padding: 1% 4%;
+    margin: 1%;
+    font-size: 1.2rem;
+    background-color: #9AC8CD;
+    color: #1E0342;
+}

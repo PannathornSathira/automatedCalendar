@@ -1,0 +1,8 @@
+
+.statusTopic{
+    color: #E1F7F5;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+}

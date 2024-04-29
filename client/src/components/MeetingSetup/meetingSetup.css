@@ -1,0 +1,19 @@
+.meetingsetup{
+    font-size: 1.2rem;
+}
+.contentsetup{
+    background-color: aqua;
+    border-radius: 80px;
+    height: 80%;
+}
+.contentsetup button{
+    border-radius: 60px;
+    padding: 0.5% 3%;
+    margin: 1%;
+    font-size: 1rem;
+    background-color: #1E0342;
+    color: #9AC8CD;
+}
+h1{
+    color:aliceblue;
+}

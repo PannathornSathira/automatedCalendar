@@ -1,0 +1,58 @@
+/* Target the entire body */
+body {
+    /* Set the background color to blue  */
+    background-color: #007bff;
+    /* Add some padding to create space around the content */
+    padding: 20px;
+  }
+  
+  /* Target the navigation bar */
+  .nav-bar {
+    /* Display the elements inline  */
+    display: inline-flex;
+  }
+  
+  /* Target each button within the navigation bar */
+  .nav-button {
+    /* Add some margin between the buttons */
+    margin-left: 20px;
+    /* Remove any default styles  */
+    background: none;
+    /* Remove the border */
+    border: none;
+    /* Add a padding to the buttons */
+    padding: 10px;
+    /* Style the text to be white */
+    color: white;
+    /* Add a hover effect to change the color when hovered over  */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Apply a hover effect to change the background color when hovered over */
+  .nav-button:hover {
+    background-color: #28a745;
+  }
+  
+  /* Target the title text */
+  .title-text {
+      /* Style the text to be white and large */
+    color: white;
+    font-size: 2em;
+    /* Add margin to the bottom */
+    margin-bottom: 20px;
+  }
+  
+  /* Target the section with text */
+  .text-section {
+    /* Add a white background to this section */
+    background-color: white;
+    /* Add some padding for space  */
+    padding: 20px;
+  }
+  
+  /* Target the text within the section */
+  .text-section p {
+    /* Add some margin to the bottom of the paragraph */
+    margin-bottom: 10px;
+  }
